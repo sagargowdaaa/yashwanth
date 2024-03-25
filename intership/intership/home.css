@@ -1,0 +1,26 @@
+body {
+    background-image:url("./img/hp1.jpg");
+    background-size:98% 98%;
+    background-attachment:fixed;
+    z-index:-1;
+}
+#blackOverlay{
+    top:0; 
+    left: 0;
+    height:100%;
+    width:100%;
+    position: absolute;
+    opacity: 0.6;
+    background-color: rgb(10, 10, 10);
+    z-index:-1;
+}
+#header{
+    height: 10px;
+    color: white;
+    font-size: 50px;
+    padding-top:30px;
+}
+p{
+    color:white;
+    font-size:30px;
+}
